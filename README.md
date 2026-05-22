@@ -1,12 +1,10 @@
-# ☕ Coddy Tech – Java Course Solutions
+# ☕ Coddy Tech and CCPROG3 Java Course Solutions
 
-My personal solutions to the coding challenges from [Coddy Tech's Java course](https://coddy.tech/landing/java) — a free, interactive Java course that covers everything from the basics to more advanced topics like data structures and OOP.
+My personal solutions to the coding challenges from [Coddy Tech's Java course](https://coddy.tech/landing/java) — a free, interactive Java course that covers everything from the basics to more advanced topics like data structures and OOP. Also includes dump for my solutions in CCPROG3 Object Oriented Programming course.
 
 ---
 
 ## 📖 About the Course
-
-Coddy's Java course is split into two main parts:
 
 - **Java Fundamentals** — syntax, classes and objects, inheritance, collections, and more (73 lessons, 95 challenges)
 - **Advanced Java** — data structures, flow control, error handling, and time management (59 lessons, 82 challenges)
