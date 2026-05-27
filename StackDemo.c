@@ -62,6 +62,17 @@ void Pop(int a[], int *top)
 	printf("\n\n");
 }
 
+void Full(int *top)
+{
+	if (SIZE == *top)
+		printf("Stack is full\n");
+	
+	else
+		printf("Stack is not yet full\n");
+		
+	printf("\n\n");
+}
+
 int main() {
     int nChoice;
     int top = 0;
@@ -94,7 +105,19 @@ int main() {
 				break;
 			}
 			
-	        //case 4: Full(Stack[]);
+			case 3:
+			{
+				printf ("Top: %d", top);
+				printf("\n\n");
+				break;
+			}
+			
+	        case 4:
+	        {
+	        	Full(&top);
+	        	break;
+			}
+			
 	        //case 5: Empty(Stack[]);
 	        //default: printf("Invalid Choice. Try again.\n");
 	    }
