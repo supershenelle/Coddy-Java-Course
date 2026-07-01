@@ -6,7 +6,7 @@ public class Store {
     public Store(String name)
     {
         storeName = name;
-        totaltotalStoresOpened++;
+        totalStoresOpened++;
     }
 
     public void restock(int amount)
@@ -37,9 +37,9 @@ public class Store {
     public void compareStock(Store other)
     {
         if (other.stock > stock)
-            System.out.println(other.storeName + " has more stock.");
+            System.out.println(other.storeName + " has more stock compared to " + storeName);
 
         else
-            System.out.println(storeName + " has more stock.");
+            System.out.println(storeName + " has more stock compared to " + other.storeName);
     }
 }
