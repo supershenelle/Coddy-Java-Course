@@ -3,10 +3,10 @@ public class Store {
     private String storeName;
     private int stock = 0;
 
-    Store(String name, int totalStoresOpened)
+    public Store(String name)
     {
         storeName = name;
-        this.totalStoresOpened = totalStoresOpened + 1;
+        totaltotalStoresOpened++;
     }
 
     public void restock(int amount)
@@ -24,22 +24,22 @@ public class Store {
         return stock;
     }
 
-    static int getTotalStoresOpened()
+    public static int getTotalStoresOpened()
     {
         return totalStoresOpened;
     }
 
-    final void announce(String storeName)
+    final void announce()
     {
-        System.out.println(storeName + "is open for business!");
+        System.out.println(storeName + " is open for business!");
     }
 
     public void compareStock(Store other)
     {
         if (other.stock > stock)
-            System.out.println(other.storeName + "has more stock.");
+            System.out.println(other.storeName + " has more stock.");
 
         else
-            System.out.println(storeName + "has more stock.");
+            System.out.println(storeName + " has more stock.");
     }
 }
